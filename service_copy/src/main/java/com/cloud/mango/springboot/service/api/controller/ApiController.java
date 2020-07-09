@@ -1,8 +1,8 @@
-package com.cloud.mango.servicecopy.api.controller;
+package com.cloud.mango.springboot.service.api.controller;
 
-import com.cloud.mango.servicecopy.api.entity.MangoEntity;
-import com.cloud.mango.servicecopy.common.CommonResult;
-import com.cloud.mango.servicecopy.common.utils.CommonUtils;
+import com.cloud.mango.springboot.service.api.entity.MangoEntity;
+import com.cloud.mango.springboot.service.common.CommonResult;
+import com.cloud.mango.springboot.service.common.utils.CommonUtils;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

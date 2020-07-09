@@ -1,4 +1,4 @@
-package com.cloud.mango.servicecopy.common.utils;
+package com.cloud.mango.springboot.service.common.utils;
 
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonGenerator;

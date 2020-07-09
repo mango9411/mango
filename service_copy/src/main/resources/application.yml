@@ -1,15 +1,16 @@
-
 spring:
   application:
-    name: service_copy
+    name: service
   cloud:
     config:
       enabled: false            #是否连接配置中心
 
 server:
-  port: 6002
+  port: 6001
 eureka:
   client:
     register-with-eureka: false #是否要注册到其他Server上
     fetch-registry: false       #是否需要拉取服务信息
+    service-url:
+      defaultZone: http://localhost:7001/eureka/  #注册中心地址
 

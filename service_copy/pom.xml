@@ -8,7 +8,7 @@
         <version>2.3.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cloud.mango</groupId>
+    <groupId>com.cloud.mango.springboot</groupId>
     <artifactId>service_copy</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>service_copy</name>

@@ -1,4 +1,4 @@
-package com.cloud.mango.servicecopy.common.utils;
+package com.cloud.mango.springboot.service.common.utils;
 
 
 import javax.servlet.http.HttpServletResponse;

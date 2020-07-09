@@ -1,8 +1,7 @@
-package com.cloud.mango.servicecopy.common.utils;
+package com.cloud.mango.springboot.service.common.utils;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
 /**
  * @author mango
  * @date 2020/7/8 21:46

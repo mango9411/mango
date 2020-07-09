@@ -1,4 +1,4 @@
-package com.cloud.mango.servicecopy.api.entity;
+package com.cloud.mango.springboot.service.api.entity;
 
 import lombok.Data;
 

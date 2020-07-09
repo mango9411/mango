@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: service_copy
+  cloud:
+    config:
+      enabled: true            #是否连接配置中心
+      uri: http://localhost:7777/
+      profile: dev
+      name: serviceCopyApplication
+

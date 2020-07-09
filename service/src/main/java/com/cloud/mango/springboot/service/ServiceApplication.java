@@ -15,6 +15,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @SpringBootApplication
 @ServletComponentScan
 @EnableDiscoveryClient
+@RefreshScope
 public class ServiceApplication {
 
     public static void main(String[] args) {

@@ -1,11 +1,10 @@
 spring:
   application:
-    name: spring-boot-service
+    name: feign
   cloud:
     config:
       enabled: true            #是否连接配置中心
       uri: http://localhost:7777/
       profile: dev
-      name: serviceApplication
-
+      name: feignApplication
 

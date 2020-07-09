@@ -24,7 +24,7 @@ public class ApiController {
         CommonResult restfulResult = new CommonResult();
 
         try {
-            restfulResult.setData("Service1:Welcome " + mangoEntity.getName() + "!");
+            restfulResult.setData("Service2:Welcome " + mangoEntity.getName() + "!");
         } catch (Exception e) {
             e.printStackTrace();
         }

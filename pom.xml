@@ -11,5 +11,8 @@
     <modules>
         <module>service</module>
         <module>service_copy</module>
+        <module>eureka</module>
+        <module>feign</module>
+        <module>config</module>
     </modules>
 </project>

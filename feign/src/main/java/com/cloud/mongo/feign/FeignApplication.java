@@ -1,22 +1,24 @@
-package com.cloud.mango.springboot.service;
+package com.cloud.mongo.feign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * 应用服务
+ * 服务调用
  *
  * @author mango
- * @date 2020/7/8
+ * @date 2020/7/9
  */
-@SpringBootApplication
+@EnableFeignClients
 @ServletComponentScan
 @EnableDiscoveryClient
-public class ServiceCopyApplication {
+@SpringBootApplication
+public class FeignApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceCopyApplication.class, args);
+        SpringApplication.run(FeignApplication.class, args);
     }
 }

@@ -10,5 +10,6 @@
 
     <modules>
         <module>service</module>
+        <module>service_copy</module>
     </modules>
 </project>

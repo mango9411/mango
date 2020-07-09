@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: service_copy
+  cloud:
+    config:
+      enabled: false            #是否连接配置中心
+
+server:
+  port: 6002
+eureka:
+  client:
+    register-with-eureka: false #是否要注册到其他Server上
+    fetch-registry: false       #是否需要拉取服务信息
+

@@ -15,5 +15,6 @@
         <module>feign</module>
         <module>config</module>
         <module>ribbon</module>
+        <module>zuul</module>
     </modules>
 </project>

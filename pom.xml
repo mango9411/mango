@@ -14,5 +14,6 @@
         <module>eureka</module>
         <module>feign</module>
         <module>config</module>
+        <module>ribbon</module>
     </modules>
 </project>

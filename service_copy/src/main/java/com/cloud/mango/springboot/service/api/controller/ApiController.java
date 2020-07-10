@@ -35,6 +35,6 @@ public class ApiController {
     @RequestMapping(value = "/rest")
     public String rest(@RequestBody MangoEntity mangoEntity) {
 
-        return "Service1:Welcome " + mangoEntity.getName() + " !";
+        return "Service2:Welcome " + mangoEntity.getName() + " !";
     }
 }

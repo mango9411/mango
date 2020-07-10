@@ -23,6 +23,6 @@ public interface ServiceFeignClient {
      * @param mangoEntity
      * @return
      */
-    @RequestMapping(value = "/service/hello")
+    @RequestMapping(value = "/api/hello")
     CommonResult hello(@RequestBody MangoEntity mangoEntity);
 }
